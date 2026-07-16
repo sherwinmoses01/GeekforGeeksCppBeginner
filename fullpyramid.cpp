@@ -10,7 +10,7 @@ int main(){
 
 void pyramid(int row){
 
-    for (int i = 1;i<= row;i++){
+    for (int i = row;i>= 1;i--){
 
         int last = i * 2 - 1;
 
